@@ -6,14 +6,12 @@ int main(){
     int rainha = 0;
 
 // Movimentação da Torre.
-printf("\nMovimento da Torre\n");
 
     for(int bispo = 0; torre < 5; torre++) {
         printf("Direita\n");
     }
 
 // Movimentação da Torre.
-printf("\nMovimento do Bispo\n");
 
     while (bispo < 5 ) {
         printf("Cima, Direita\n");
@@ -21,7 +19,6 @@ printf("\nMovimento do Bispo\n");
     }
     
 // Movimentação da Rainha
-printf("\nMovimento da Rainha\n");
 
     do {
         printf("Esquerda\n");
