@@ -17,5 +17,12 @@ int main(){
          bispo++;
     }
     
+// Movimentação da Rainha
+    do {
+        printf("Esquerda\n");
+        rainha++;
+    } while (rainha < 8);
+
+    return 0;
 
 }
